@@ -1,0 +1,36 @@
+/*
+
+Theme Name: Storefront Child
+Theme URI: http://www.woothemes/com/storefront
+Description: A child theme for Storefront
+Author: Vicki Winters
+Author URI: http://v-linkstudio.com
+Template: storefront 
+Version: 1.0
+Text Domain: storefront-child
+*/
+
+
+@import url(@import url(https://fonts.googleapis.com/css?family=Lobster);
+.site-branding h1 {font-family: 'Lobster', cursive; 
+                   font-size: 36px;
+                   }
+.site-branding h2, h3, h4, h5,
+                   {font-family: 'Lobster', cursive;
+                   font-size: 18px;
+                   }
+
+
+.storefront-primary-navigation {
+	     background: #40ccd1; 
+}
+.main-navigation ul.menu>li>a, .main-navigation ul.nav-menu>li>a
+                  {font-family: 'Lobster', cursive;}
+               
+                 p {font-family: 'Lobster', cursive;}
+        .main#main.sitemain {font-family: 'Lobster', cursive;}
+        select {font-family: 'Lobster', cursive;}
+        h1.page-title {font-family: 'Lobster', cursive;}
+ 
+                
+}

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /Applications/bitnami-wordpress/scripts/setenv.sh
+
+exec /Applications/bitnami-wordpress/common/bin/.tsql.bin  "$@"

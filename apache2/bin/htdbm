@@ -1,0 +1,3 @@
+#!/bin/sh
+. /Applications/bitnami-wordpress/apache2/bin/envvars
+exec /Applications/bitnami-wordpress/apache2/bin/htdbm.bin "$@"

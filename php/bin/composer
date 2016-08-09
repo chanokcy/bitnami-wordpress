@@ -1,0 +1,4 @@
+#!/bin/sh
+. /Applications/bitnami-wordpress/php/../scripts/setenv.sh
+
+exec /Applications/bitnami-wordpress/php/bin/composer.phar "$@"

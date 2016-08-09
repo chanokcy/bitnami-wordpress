@@ -1,0 +1,8 @@
+#!/bin/sh
+
+PATH="/Applications/bitnami-wordpress/varnish/bin:/Applications/bitnami-wordpress/sqlite/bin:/Applications/bitnami-wordpress/php/bin:/Applications/bitnami-wordpress/mysql/bin:/Applications/bitnami-wordpress/apache2/bin:/Applications/bitnami-wordpress/common/bin:$PATH"
+BITNAMI_ROOT="/Applications/bitnami-wordpress"
+export BITNAMI_ROOT
+
+exec /bin/bash --noprofile --norc
+                    

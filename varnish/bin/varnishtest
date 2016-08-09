@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /Applications/bitnami-wordpress/scripts/setenv.sh
+
+exec /Applications/bitnami-wordpress/varnish/bin/.varnishtest.bin -n /Applications/bitnami-wordpress/varnish/var/varnish "$@"

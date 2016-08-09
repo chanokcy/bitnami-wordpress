@@ -1,0 +1,443 @@
+2016-07-12T12:12:15.6NZ mysqld_safe Starting mysqld.bin daemon with databases from /Applications/bitnami-wordpress/mysql/data
+2016-07-12T12:12:15.514044Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-07-12T12:12:15.514613Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2016-07-12T12:12:15.514659Z 0 [Note] /Applications/bitnami-wordpress/mysql/bin/mysqld.bin (mysqld 5.7.13) starting as process 3260 ...
+2016-07-12T12:12:15.559393Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2016-07-12T12:12:15.559428Z 0 [Note] InnoDB: Uses event mutexes
+2016-07-12T12:12:15.559438Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2016-07-12T12:12:15.559447Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-07-12T12:12:15.559958Z 0 [Note] InnoDB: Number of pools: 1
+2016-07-12T12:12:15.560176Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2016-07-12T12:12:15.561747Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2016-07-12T12:12:15.576651Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2016-07-12T12:12:15.629068Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-07-12T12:12:15.736463Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2016-07-12T12:12:15.736664Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2016-07-12T12:12:16.002802Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2016-07-12T12:12:16.004123Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2016-07-12T12:12:16.004150Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2016-07-12T12:12:16.004477Z 0 [Note] InnoDB: Waiting for purge to start
+2016-07-12T12:12:16.055748Z 0 [Note] InnoDB: 5.7.13 started; log sequence number 2527401
+2016-07-12T12:12:16.056117Z 0 [Note] InnoDB: Loading buffer pool(s) from /Applications/bitnami-wordpress/mysql/data/ib_buffer_pool
+2016-07-12T12:12:16.056283Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2016-07-12T12:12:16.067526Z 0 [Note] InnoDB: Buffer pool(s) load completed at 160712 20:12:16
+2016-07-12T12:12:16.140805Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2016-07-12T12:12:16.145875Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2016-07-12T12:12:16.146593Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-07-12T12:12:16.146715Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2016-07-12T12:12:16.191574Z 0 [Note] Event Scheduler: Loaded 0 events
+2016-07-12T12:12:16.191860Z 0 [Note] /Applications/bitnami-wordpress/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.7.13'  socket: '/Applications/bitnami-wordpress/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2016-07-12T14:07:36.041041Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 30272ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-13T03:17:26.587985Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 21151ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-13T03:18:43.294205Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 21568ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-13T03:49:49.212917Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 22243ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-13T06:26:23.571411Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 23151ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-13T08:02:16.946966Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 29448ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-13T08:03:14.263814Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 29892ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-13T08:28:00.659708Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26310ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-13T10:38:02.590638Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 29488ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-13T14:33:16.935108Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 28423ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-13T15:38:57.944696Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 28563ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-14T16:18:03.759903Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 29128ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-14T16:19:25.942142Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 29039ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-14T17:11:34.105061Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 29622ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-14T17:15:58.398875Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 27895ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-15T01:27:07.587096Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 15031585ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-15T01:48:19.563376Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 28739ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-15T02:08:04.682884Z 279 [Note] Access denied for user 'chan.okcy@gmail.com'@'localhost' (using password: YES)
+2016-07-15T04:33:58.063359Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 30911ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-15T04:56:27.778198Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 30250ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-15T07:20:52.344368Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 30320ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-15T09:34:10.213917Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 476327ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-15T09:35:17.156976Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26851ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-15T09:36:43.333330Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26292ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-16T02:53:04.852336Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 47775252ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-16T05:15:02.659591Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 24833ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-16T05:37:08.062951Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 25424ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-16T05:40:29.907814Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 24935ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-16T05:42:21.128057Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 25125ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-16T10:37:13.822866Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 24952ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-17T02:19:23.397837Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 24981ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-17T02:53:18.725655Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26396ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-17T04:18:20.848635Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 24888ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-17T04:25:51.394207Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 27372ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-17T12:56:07.613057Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 31003ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-17T16:08:57.226423Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 23560ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-17T16:09:36.303582Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 23695ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-17T16:21:54.009090Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 23311ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-17T16:28:02.527156Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 23434ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-18T02:14:31.020860Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 22883ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-18T05:58:38.252000Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 22411ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-18T09:15:22.951957Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4494ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-18T13:29:00.137506Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 24085ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-18T15:50:11.971025Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 24259ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-18T17:02:08.004748Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 25946ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-19T06:58:10.776300Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 50160768ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-19T07:25:45.962030Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 27848ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-19T14:02:51.026722Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 34680ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-19T16:23:44.914128Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 25442ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-19T16:24:33.949340Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 25701ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-19T17:09:50.128620Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26381ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-20T04:05:08.764870Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 24329ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-20T04:27:06.594343Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 24457ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-20T06:20:23.631739Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 24944ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-20T08:21:17.424736Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 27115ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-20T13:47:13.990338Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9814823ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-20T13:54:32.585265Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26291ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-20T19:48:58.104760Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 28201ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-21T01:56:33.344610Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 21993213ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-21T01:57:50.817863Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 27800ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-22T05:03:38.590899Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 25782ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-22T05:07:34.377782Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 28404ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-22T06:01:36.189869Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2016-07-22T06:01:36.213239Z 0 [Note] Shutting down slave threads
+2016-07-22T06:01:36.213348Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2016-07-22T06:01:36.344566Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2016-07-22T06:01:36.372104Z 0 [Note] Binlog end
+2016-07-22T06:01:36.621242Z 0 [Note] Shutting down plugin 'ngram'
+2016-07-22T06:01:36.621297Z 0 [Note] Shutting down plugin 'partition'
+2016-07-22T06:01:36.621306Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2016-07-22T06:01:36.621324Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2016-07-22T06:01:36.621330Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2016-07-22T06:01:36.641519Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2016-07-22T06:01:36.641569Z 0 [Note] Shutting down plugin 'MyISAM'
+2016-07-22T06:01:36.641683Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2016-07-22T06:01:36.650549Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2016-07-22T06:01:36.650627Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2016-07-22T06:01:36.650656Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2016-07-22T06:01:36.650668Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2016-07-22T06:01:36.650679Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2016-07-22T06:01:36.650690Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2016-07-22T06:01:36.650702Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2016-07-22T06:01:36.650713Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2016-07-22T06:01:36.650725Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2016-07-22T06:01:36.650736Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2016-07-22T06:01:36.650747Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2016-07-22T06:01:36.650758Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2016-07-22T06:01:36.650769Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2016-07-22T06:01:36.650780Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2016-07-22T06:01:36.650791Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2016-07-22T06:01:36.650802Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2016-07-22T06:01:36.650814Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2016-07-22T06:01:36.650825Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2016-07-22T06:01:36.650837Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2016-07-22T06:01:36.650848Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2016-07-22T06:01:36.650860Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2016-07-22T06:01:36.650901Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2016-07-22T06:01:36.650915Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2016-07-22T06:01:36.650927Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2016-07-22T06:01:36.650937Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2016-07-22T06:01:36.650947Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2016-07-22T06:01:36.650958Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2016-07-22T06:01:36.650968Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2016-07-22T06:01:36.650978Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2016-07-22T06:01:36.650989Z 0 [Note] Shutting down plugin 'InnoDB'
+2016-07-22T06:01:36.702038Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2016-07-22T06:01:36.719092Z 0 [Note] InnoDB: Starting shutdown...
+2016-07-22T06:01:36.869667Z 0 [Note] InnoDB: Dumping buffer pool(s) to /Applications/bitnami-wordpress/mysql/data/ib_buffer_pool
+2016-07-22T06:01:36.912207Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 160722 14:01:36
+2016-07-22T06:01:37.923467Z 0 [Note] InnoDB: Shutdown completed; log sequence number 10187258
+2016-07-22T06:01:37.923590Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2016-07-22T06:01:37.923605Z 0 [Note] Shutting down plugin 'MEMORY'
+2016-07-22T06:01:37.923616Z 0 [Note] Shutting down plugin 'CSV'
+2016-07-22T06:01:37.923634Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-07-22T06:01:37.923649Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-07-22T06:01:37.924020Z 0 [Note] Shutting down plugin 'binlog'
+2016-07-22T06:01:37.960232Z 0 [Note] /Applications/bitnami-wordpress/mysql/bin/mysqld.bin: Shutdown complete
+
+2016-07-22T06:01:38.6NZ mysqld_safe mysqld from pid file /Applications/bitnami-wordpress/mysql/data/mysqld.pid ended
+2016-07-25T02:42:00.6NZ mysqld_safe Starting mysqld.bin daemon with databases from /Applications/bitnami-wordpress/mysql/data
+2016-07-25T02:42:03.115284Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-07-25T02:42:03.206918Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2016-07-25T02:42:03.240008Z 0 [Note] /Applications/bitnami-wordpress/mysql/bin/mysqld.bin (mysqld 5.7.13) starting as process 2418 ...
+2016-07-25T02:42:04.199835Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2016-07-25T02:42:04.199886Z 0 [Note] InnoDB: Uses event mutexes
+2016-07-25T02:42:04.199902Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2016-07-25T02:42:04.199915Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-07-25T02:42:04.289439Z 0 [Note] InnoDB: Number of pools: 1
+2016-07-25T02:42:04.369924Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2016-07-25T02:42:04.398443Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2016-07-25T02:42:04.464931Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2016-07-25T02:42:04.647906Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-07-25T02:42:13.990776Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2016-07-25T02:42:13.990940Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2016-07-25T02:42:14.314540Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2016-07-25T02:42:14.315946Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2016-07-25T02:42:14.315967Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2016-07-25T02:42:14.316273Z 0 [Note] InnoDB: Waiting for purge to start
+2016-07-25T02:42:14.366775Z 0 [Note] InnoDB: Waiting for purge to start
+2016-07-25T02:42:14.416923Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9948ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-25T02:42:14.433153Z 0 [Note] InnoDB: 5.7.13 started; log sequence number 10187258
+2016-07-25T02:42:14.499442Z 0 [Note] InnoDB: Loading buffer pool(s) from /Applications/bitnami-wordpress/mysql/data/ib_buffer_pool
+2016-07-25T02:42:14.596508Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2016-07-25T02:42:15.164500Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2016-07-25T02:42:15.164545Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2016-07-25T02:42:15.165029Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-07-25T02:42:15.165139Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2016-07-25T02:42:15.758320Z 0 [Note] InnoDB: Buffer pool(s) load completed at 160725 10:42:15
+2016-07-25T02:42:16.212253Z 0 [Note] Event Scheduler: Loaded 0 events
+2016-07-25T02:42:16.212483Z 0 [Note] /Applications/bitnami-wordpress/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.7.13'  socket: '/Applications/bitnami-wordpress/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2016-07-25T05:09:14.729470Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 23625ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-25T08:32:26.994493Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 23896ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-25T08:58:39.060119Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 23953ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-25T09:42:30.950525Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26629ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-25T14:18:29.225365Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2120696ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-25T14:19:50.725371Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26437ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-25T16:15:59.008441Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 27888ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-26T05:39:54.832194Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 33781478ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-26T08:29:20.167680Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 28404ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-26T09:49:06.688289Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 27017ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-26T09:50:27.146696Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26924ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-26T09:55:29.883200Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26843ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-26T10:23:30.849240Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 27880ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-26T10:57:53.030689Z 333 [Note] Access denied for user 'chan.okcy@gmail.com'@'localhost' (using password: YES)
+2016-07-26T10:58:03.510358Z 334 [Note] Access denied for user 'chan.okcy@gmail.com'@'localhost' (using password: YES)
+2016-07-26T14:57:43.145649Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 27227ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-26T16:39:53.011144Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 27250ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-26T16:50:52.347728Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 27225ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-26T17:07:37.508103Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 27510ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-27T02:39:26.536351Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 24644ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-27T03:01:48.527679Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 25578ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-27T04:46:22.668425Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 31298ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-27T06:25:36.492497Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 29254ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-27T06:26:15.124588Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 29550ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-27T07:24:25.300143Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 30110ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-27T07:44:05.832801Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 30807ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-27T08:34:02.423262Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 28466ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-27T13:07:16.244762Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 27738ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-27T13:08:12.062381Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 28570ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-28T02:31:12.421901Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26587ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-28T05:24:49.823936Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26167ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-28T05:38:57.086126Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 25783ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-28T07:18:02.043106Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26136ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-28T07:37:13.259578Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26106ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-28T08:06:44.145187Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26232ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-28T12:33:56.218974Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 34489ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-28T16:38:14.343880Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26786ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-28T16:41:17.999767Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 28351ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-07-30T14:54:03.6NZ mysqld_safe Starting mysqld.bin daemon with databases from /Applications/bitnami-wordpress/mysql/data
+2016-07-30T14:54:03.842294Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-07-30T14:54:03.854082Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2016-07-30T14:54:03.879213Z 0 [Note] /Applications/bitnami-wordpress/mysql/bin/mysqld.bin (mysqld 5.7.13) starting as process 1755 ...
+2016-07-30T14:54:04.060590Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2016-07-30T14:54:04.060645Z 0 [Note] InnoDB: Uses event mutexes
+2016-07-30T14:54:04.060662Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2016-07-30T14:54:04.060676Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-07-30T14:54:04.067754Z 0 [Note] InnoDB: Number of pools: 1
+2016-07-30T14:54:04.092960Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2016-07-30T14:54:04.095497Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2016-07-30T14:54:04.111121Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2016-07-30T14:54:04.174408Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-07-30T14:54:04.224451Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 19685872
+2016-07-30T14:54:04.224500Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 19685881
+2016-07-30T14:54:04.224841Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 19685881
+2016-07-30T14:54:04.224879Z 0 [Note] InnoDB: Database was not shutdown normally!
+2016-07-30T14:54:04.224887Z 0 [Note] InnoDB: Starting crash recovery.
+2016-07-30T14:54:05.211399Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2016-07-30T14:54:05.211443Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2016-07-30T14:54:05.211817Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2016-07-30T14:54:05.483362Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2016-07-30T14:54:05.484667Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2016-07-30T14:54:05.484694Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2016-07-30T14:54:05.484992Z 0 [Note] InnoDB: Waiting for purge to start
+2016-07-30T14:54:05.535449Z 0 [Note] InnoDB: Waiting for purge to start
+2016-07-30T14:54:05.586220Z 0 [Note] InnoDB: 5.7.13 started; log sequence number 19685881
+2016-07-30T14:54:05.586642Z 0 [Note] InnoDB: Loading buffer pool(s) from /Applications/bitnami-wordpress/mysql/data/ib_buffer_pool
+2016-07-30T14:54:05.645338Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2016-07-30T14:54:05.864842Z 0 [Note] InnoDB: Buffer pool(s) load completed at 160730 22:54:05
+2016-07-30T14:54:05.946329Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2016-07-30T14:54:05.946378Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2016-07-30T14:54:05.946893Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-07-30T14:54:05.946960Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2016-07-30T14:54:06.324100Z 0 [Note] Event Scheduler: Loaded 0 events
+2016-07-30T14:54:06.324529Z 0 [Note] /Applications/bitnami-wordpress/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.7.13'  socket: '/Applications/bitnami-wordpress/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2016-07-30T16:21:03.378541Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2016-07-30T16:21:03.513535Z 0 [Note] Shutting down slave threads
+2016-07-30T16:21:03.513608Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2016-07-30T16:21:03.513776Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2016-07-30T16:21:03.513916Z 0 [Note] Binlog end
+2016-07-30T16:21:03.523575Z 0 [Note] Shutting down plugin 'ngram'
+2016-07-30T16:21:03.523622Z 0 [Note] Shutting down plugin 'partition'
+2016-07-30T16:21:03.523633Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2016-07-30T16:21:03.523643Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2016-07-30T16:21:03.523651Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2016-07-30T16:21:03.523752Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2016-07-30T16:21:03.523767Z 0 [Note] Shutting down plugin 'MyISAM'
+2016-07-30T16:21:03.525712Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2016-07-30T16:21:03.525749Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2016-07-30T16:21:03.525789Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2016-07-30T16:21:03.525798Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2016-07-30T16:21:03.525805Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2016-07-30T16:21:03.525811Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2016-07-30T16:21:03.525817Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2016-07-30T16:21:03.525824Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2016-07-30T16:21:03.525831Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2016-07-30T16:21:03.525837Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2016-07-30T16:21:03.525844Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2016-07-30T16:21:03.525851Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2016-07-30T16:21:03.525857Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2016-07-30T16:21:03.525864Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2016-07-30T16:21:03.525871Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2016-07-30T16:21:03.525878Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2016-07-30T16:21:03.525885Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2016-07-30T16:21:03.525891Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2016-07-30T16:21:03.525898Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2016-07-30T16:21:03.525905Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2016-07-30T16:21:03.525912Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2016-07-30T16:21:03.525919Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2016-07-30T16:21:03.525926Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2016-07-30T16:21:03.525932Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2016-07-30T16:21:03.525939Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2016-07-30T16:21:03.525946Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2016-07-30T16:21:03.525953Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2016-07-30T16:21:03.525959Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2016-07-30T16:21:03.525966Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2016-07-30T16:21:03.525973Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2016-07-30T16:21:03.525980Z 0 [Note] Shutting down plugin 'InnoDB'
+2016-07-30T16:21:03.703208Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2016-07-30T16:21:03.703534Z 0 [Note] InnoDB: Starting shutdown...
+2016-07-30T16:21:03.804048Z 0 [Note] InnoDB: Dumping buffer pool(s) to /Applications/bitnami-wordpress/mysql/data/ib_buffer_pool
+2016-07-30T16:21:03.924061Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 160731  0:21:03
+2016-08-02T10:42:25.6NZ mysqld_safe Starting mysqld.bin daemon with databases from /Applications/bitnami-wordpress/mysql/data
+2016-08-02T10:42:26.391114Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-08-02T10:42:26.402862Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2016-08-02T10:42:26.428003Z 0 [Note] /Applications/bitnami-wordpress/mysql/bin/mysqld.bin (mysqld 5.7.13) starting as process 1515 ...
+2016-08-02T10:42:26.609291Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2016-08-02T10:42:26.609345Z 0 [Note] InnoDB: Uses event mutexes
+2016-08-02T10:42:26.609363Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2016-08-02T10:42:26.609376Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-08-02T10:42:26.616717Z 0 [Note] InnoDB: Number of pools: 1
+2016-08-02T10:42:26.641734Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2016-08-02T10:42:26.644302Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2016-08-02T10:42:26.659421Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2016-08-02T10:42:26.723196Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-08-02T10:42:26.764856Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 21312273
+2016-08-02T10:42:26.764900Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 21312282
+2016-08-02T10:42:26.765177Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 21312282
+2016-08-02T10:42:26.765212Z 0 [Note] InnoDB: Database was not shutdown normally!
+2016-08-02T10:42:26.765222Z 0 [Note] InnoDB: Starting crash recovery.
+2016-08-02T10:42:28.270838Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2016-08-02T10:42:28.270871Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2016-08-02T10:42:28.270990Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2016-08-02T10:42:28.428243Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2016-08-02T10:42:28.429521Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2016-08-02T10:42:28.429547Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2016-08-02T10:42:28.429824Z 0 [Note] InnoDB: Waiting for purge to start
+2016-08-02T10:42:28.481019Z 0 [Note] InnoDB: 5.7.13 started; log sequence number 21312282
+2016-08-02T10:42:28.481365Z 0 [Note] InnoDB: Loading buffer pool(s) from /Applications/bitnami-wordpress/mysql/data/ib_buffer_pool
+2016-08-02T10:42:28.561203Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2016-08-02T10:42:28.906453Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2016-08-02T10:42:28.906503Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2016-08-02T10:42:28.907057Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-08-02T10:42:28.907125Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2016-08-02T10:42:28.924375Z 0 [Note] InnoDB: Buffer pool(s) load completed at 160802 18:42:28
+2016-08-02T10:42:29.195317Z 0 [Note] Event Scheduler: Loaded 0 events
+2016-08-02T10:42:29.195750Z 0 [Note] /Applications/bitnami-wordpress/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.7.13'  socket: '/Applications/bitnami-wordpress/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2016-08-02T14:15:42.043661Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 25871ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-08-02T15:51:29.647814Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 18625ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-08-02T20:44:25.529927Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 25894ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-08-03T01:47:56.083620Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 18153984ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-08-03T01:48:43.309143Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 25615ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-08-03T02:04:02.492438Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 25426ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-08-03T04:16:25.663298Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26393ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-08-03T06:00:54.299183Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4274ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-08-03T06:12:12.550253Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 22900ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-08-03T06:13:40.071845Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 23095ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-08-04T16:09:31.787443Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 20058ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-08-04T16:24:06.491212Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2016-08-04T16:24:06.491264Z 0 [Note] Shutting down slave threads
+2016-08-04T16:24:06.491295Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2016-08-04T16:24:06.592339Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2016-08-04T16:24:06.614450Z 0 [Note] Binlog end
+2016-08-04T16:24:06.744341Z 0 [Note] Shutting down plugin 'ngram'
+2016-08-04T16:24:06.744389Z 0 [Note] Shutting down plugin 'partition'
+2016-08-04T16:24:06.744397Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2016-08-04T16:24:06.744412Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2016-08-04T16:24:06.744417Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2016-08-04T16:24:06.795008Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2016-08-04T16:24:06.810658Z 0 [Note] Shutting down plugin 'MyISAM'
+2016-08-04T16:24:06.810804Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2016-08-04T16:24:06.818935Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2016-08-04T16:24:06.818998Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2016-08-04T16:24:06.819018Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2016-08-04T16:24:06.819034Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2016-08-04T16:24:06.819049Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2016-08-04T16:24:06.819063Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2016-08-04T16:24:06.819079Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2016-08-04T16:24:06.819108Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2016-08-04T16:24:06.819124Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2016-08-04T16:24:06.819145Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2016-08-04T16:24:06.819155Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2016-08-04T16:24:06.819164Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2016-08-04T16:24:06.819173Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2016-08-04T16:24:06.819182Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2016-08-04T16:24:06.819191Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2016-08-04T16:24:06.819201Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2016-08-04T16:24:06.819210Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2016-08-04T16:24:06.819220Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2016-08-04T16:24:06.819230Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2016-08-04T16:24:06.819240Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2016-08-04T16:24:06.819249Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2016-08-04T16:24:06.819259Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2016-08-04T16:24:06.819269Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2016-08-04T16:24:06.819279Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2016-08-04T16:24:06.819288Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2016-08-04T16:24:06.819298Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2016-08-04T16:24:06.819308Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2016-08-04T16:24:06.819317Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2016-08-04T16:24:06.819326Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2016-08-04T16:24:06.819335Z 0 [Note] Shutting down plugin 'InnoDB'
+2016-08-04T16:24:06.840410Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2016-08-04T16:24:06.854354Z 0 [Note] InnoDB: Starting shutdown...
+2016-08-04T16:24:07.052258Z 0 [Note] InnoDB: Dumping buffer pool(s) to /Applications/bitnami-wordpress/mysql/data/ib_buffer_pool
+2016-08-04T16:24:07.052872Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 160805  0:24:07
+2016-08-04T16:24:07.867929Z 0 [Note] InnoDB: Shutdown completed; log sequence number 23142975
+2016-08-04T16:24:07.872256Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2016-08-04T16:24:07.872301Z 0 [Note] Shutting down plugin 'MEMORY'
+2016-08-04T16:24:07.884348Z 0 [Note] Shutting down plugin 'CSV'
+2016-08-04T16:24:07.884475Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-08-04T16:24:07.884521Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-08-04T16:24:07.885322Z 0 [Note] Shutting down plugin 'binlog'
+2016-08-04T16:24:07.919428Z 0 [Note] /Applications/bitnami-wordpress/mysql/bin/mysqld.bin: Shutdown complete
+
+2016-08-04T16:24:08.6NZ mysqld_safe mysqld from pid file /Applications/bitnami-wordpress/mysql/data/mysqld.pid ended
+2016-08-08T14:08:44.6NZ mysqld_safe Starting mysqld.bin daemon with databases from /Applications/bitnami-wordpress/mysql/data
+2016-08-08T14:08:44.887631Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-08-08T14:08:44.896892Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2016-08-08T14:08:44.923890Z 0 [Note] /Applications/bitnami-wordpress/mysql/bin/mysqld.bin (mysqld 5.7.13) starting as process 1100 ...
+2016-08-08T14:08:45.116978Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2016-08-08T14:08:45.117033Z 0 [Note] InnoDB: Uses event mutexes
+2016-08-08T14:08:45.117052Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2016-08-08T14:08:45.117067Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-08-08T14:08:45.124434Z 0 [Note] InnoDB: Number of pools: 1
+2016-08-08T14:08:45.149669Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2016-08-08T14:08:45.152109Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2016-08-08T14:08:45.167816Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2016-08-08T14:08:45.271962Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-08-08T14:08:45.996876Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2016-08-08T14:08:45.997038Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2016-08-08T14:08:46.222647Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2016-08-08T14:08:46.223939Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2016-08-08T14:08:46.223969Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2016-08-08T14:08:46.224270Z 0 [Note] InnoDB: Waiting for purge to start
+2016-08-08T14:08:46.275542Z 0 [Note] InnoDB: 5.7.13 started; log sequence number 23142975
+2016-08-08T14:08:46.331688Z 0 [Note] InnoDB: Loading buffer pool(s) from /Applications/bitnami-wordpress/mysql/data/ib_buffer_pool
+2016-08-08T14:08:46.401688Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2016-08-08T14:08:46.914647Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2016-08-08T14:08:46.914695Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2016-08-08T14:08:46.915215Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-08-08T14:08:46.915329Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2016-08-08T14:08:47.433548Z 0 [Note] InnoDB: Buffer pool(s) load completed at 160808 22:08:47
+2016-08-08T14:08:47.628310Z 0 [Note] Event Scheduler: Loaded 0 events
+2016-08-08T14:08:47.628679Z 0 [Note] /Applications/bitnami-wordpress/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.7.13'  socket: '/Applications/bitnami-wordpress/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2016-08-08T17:20:44.034921Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 24542ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-08-08T17:35:23.402447Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 25219ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-08-09T01:13:39.838492Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 13092401ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-08-09T01:14:20.067006Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 17388ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-08-09T02:28:00.287398Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 18444ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2016-08-09T06:50:04.574317Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 19909ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)

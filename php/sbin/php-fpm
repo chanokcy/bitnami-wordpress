@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /Applications/bitnami-wordpress/scripts/setenv.sh
+
+exec /Applications/bitnami-wordpress/php/sbin/.php-fpm.bin -y /Applications/bitnami-wordpress/php/etc/php-fpm.conf -p /Applications/bitnami-wordpress/php/var/ -c /Applications/bitnami-wordpress/php/etc/php.ini "$@"

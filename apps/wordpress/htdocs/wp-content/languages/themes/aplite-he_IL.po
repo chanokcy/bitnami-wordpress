@@ -1,0 +1,58 @@
+# Translation of Aplite in Hebrew
+# This file is distributed under the same license as the Aplite package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-10-21 21:50:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Aplite\n"
+
+#. Description of the plugin/theme
+msgid "Aplite is a Child Theme of AccessPress Lite. Aplite extend the AccessPress Lite theme with more beautifully crafted design."
+msgstr "Aplite היא תבנית בת של AccessPress Lite. Aplite מרחיבה את AccessPress Lite עם עיצוב ומבנה יפים יותר."
+
+#. Theme Name of the plugin/theme
+msgid "Aplite"
+msgstr "Aplite"
+
+#: footer.php:61
+msgid "Copyright"
+msgstr "זכויות יוצרים"
+
+#: header.php:73
+msgid "Menu"
+msgstr "תפריט"
+
+#: functions.php:19
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#: footer.php:55
+msgid "Free WordPress Theme"
+msgstr "תבנית חינמית של וורדפרס"
+
+#: functions.php:11
+msgctxt "Gentium Basic: on or off"
+msgid "on"
+msgstr "פועל"
+
+#: functions.php:15
+msgctxt "Advent Pro: on or off"
+msgid "on"
+msgstr "פועל"
+
+#. Author URI of the plugin/theme
+msgid "http://accesspressthemes.com/"
+msgstr "http://accesspressthemes.com/"
+
+#. Author of the plugin/theme
+msgid "AccessPress Themes"
+msgstr "תבניות AccessPress"
+
+#. Theme URI of the plugin/theme
+msgid "http://accesspressthemes.com/aplite/"
+msgstr "http://accesspressthemes.com/aplite/"

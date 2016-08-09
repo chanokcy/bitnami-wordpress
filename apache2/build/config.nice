@@ -1,0 +1,35 @@
+#! /bin/sh
+#
+# Created by configure
+
+CC="gcc"; export CC
+CFLAGS="-I/Applications/bitnami-wordpress/common/include -arch x86_64"; export CFLAGS
+CPPFLAGS="-I/Applications/bitnami-wordpress/common/include"; export CPPFLAGS
+LDFLAGS="-L/Applications/bitnami-wordpress/common/lib -liconv"; export LDFLAGS
+"./configure" \
+"--prefix=/Applications/bitnami-wordpress/apache2" \
+"--enable-so" \
+"--enable-mods-shared=most" \
+"--disable-auth_dbm" \
+"--without-berkeley-db" \
+"--enable-deflate" \
+"--enable-ssl" \
+"--with-ssl=/Applications/bitnami-wordpress/common" \
+"--enable-proxy" \
+"--enable-proxy-http" \
+"--enable-proxy-balancer" \
+"--enable-rewrite" \
+"--with-ldap" \
+"--enable-authnz-ldap" \
+"--enable-ldap" \
+"--with-apr=/Applications/bitnami-wordpress/common/bin/apr-1-config" \
+"--with-apu=/Applications/bitnami-wordpress/common/bin/apr-1-config" \
+"--with-pcre=/Applications/bitnami-wordpress/common/bin/pcre-config" \
+"--enable-mpms-shared=all" \
+"--with-nghttp2=/Applications/bitnami-wordpress/common/lib" \
+"--with-mpm=prefork" \
+"CC=gcc" \
+"CFLAGS=-I/Applications/bitnami-wordpress/common/include -arch x86_64" \
+"LDFLAGS=-L/Applications/bitnami-wordpress/common/lib -liconv" \
+"CPPFLAGS=-I/Applications/bitnami-wordpress/common/include" \
+"$@"
